@@ -1,0 +1,4 @@
+define([
+    './sampleDRV'
+], function () {
+});

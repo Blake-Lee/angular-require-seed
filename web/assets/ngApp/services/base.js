@@ -1,0 +1,4 @@
+define([
+    './sampleSVC'
+], function () {
+});
