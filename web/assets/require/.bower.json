@@ -9,6 +9,5 @@
   },
   "_source": "git://github.com/nathanfaucett/require.js.git",
   "_target": "*",
-  "_originalSource": "require",
-  "_direct": true
+  "_originalSource": "require"
 }
