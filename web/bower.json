@@ -1,0 +1,22 @@
+{
+  "name": "angular-require-seed",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Blake-Lee/angular-require-seed",
+  "authors": [
+    "Blake Lee <bllee@redhat.com>"
+  ],
+  "description": "Seed project for Angular JS with Require JS",
+  "keywords": [
+    "angular"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "angular-ui-router": "~0.2.15",
+    "jquery": "~2.1.4",
+    "require": "*",
+    "requirejs-domready": "~2.0.1",
+    "restangular": "~1.5.1",
+    "underscore": "~1.8.3"
+  },
+  "license": "MIT"
+}
