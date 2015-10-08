@@ -1,3 +1,12 @@
-/**
- * Created by bllee on 10/6/15.
- */
+define(['./module'], function (app) {
+    'use strict';
+    return app.config(function ($stateProvider, $urlRouterProvider) {
+
+        $urlRouterProvider.otherwise("/index");
+
+        $stateProvider
+            .state('index', {
+                url: "/index"
+            });
+    });
+});

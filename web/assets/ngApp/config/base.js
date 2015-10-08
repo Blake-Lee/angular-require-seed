@@ -1,4 +1,4 @@
 define([
-    './routeCFG'
+    './routeCFG', './restangularCFG'
 ], function () {
 });

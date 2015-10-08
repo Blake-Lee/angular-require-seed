@@ -1,4 +1,4 @@
-define(['require', 'angular', 'ngApp/base'], function (require, ng) {
+define(['require', 'angular', 'ngApp/base', 'ngApp/config/base'], function (require, ng) {
     'use strict';
 
     require(['domReady!'], function(document){
