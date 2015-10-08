@@ -1,3 +1,8 @@
-/**
- * Created by bllee on 10/6/15.
- */
+define(['./module'], function (directives) {
+    'use strict';
+    directives.directive('myCustomer', function() {
+        return {
+            template: 'Name: {{customer.name}} Address: {{customer.address}}'
+        };
+    });
+});

@@ -1,3 +1,8 @@
-/**
- * Created by bllee on 10/6/15.
- */
+define(['./module'], function (filters) {
+    'use strict';
+    filters.filter('checkmark', function() {
+        return function(input) {
+            return input ? '\u2713' : '\u2718';
+        };
+    });
+});

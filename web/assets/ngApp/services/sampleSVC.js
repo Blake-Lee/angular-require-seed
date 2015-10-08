@@ -1,3 +1,7 @@
-/**
- * Created by bllee on 10/6/15.
- */
+define(['./module'], function (services) {
+    'use strict';
+    services.factory('Sample', ['restangular', function (Restangular) {
+        return Restangular.all('sample');
+
+    }]);
+});
